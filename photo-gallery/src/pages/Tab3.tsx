@@ -41,8 +41,7 @@ const Tab3: React.FC = () => {
               {/* <IonLabel> */}
                 {/* <h6>{item.owner_first_name} {item.owner_last_name}: </h6> */}
    
-                <p>{item.owner_first_name} {item.owner_last_name}: {item.owner_first_name} is the owner of: {item.owner_cats}.
-                {item.owner_first_name} can be contacted at: {item.owner_email}</p>
+                <p>{item.owner_first_name} {item.owner_last_name}: {item.owner_first_name} is the owner of: {item.owner_cats}. {item.owner_first_name} can be contacted at: {item.owner_email}</p>
 
               {/* </IonLabel> */}
             </IonItem>
